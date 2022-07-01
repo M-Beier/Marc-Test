@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <title>Swim.blog</title>
+  <meta name="description" content="Startseite | News über den Schwimmsport" />
+  <meta name="author" content="Marc Beier" />
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body>
+  <video id="video" autoplay loop muted>
+	<source src="images/Wasser.mp4" type="video/mp4">
+  </video>
+  <header id="start">
+	  <h1>Herzlich Willkommen auf</h1>
+	  <h2>Swim.blog</h2>
+  </header>
+  <nav>
+		<a href="index.html" >Startseite</a>
+		<a href="news.html" >News</a>
+		<a href="rekorde.html" >Rekorde</a>
+		<a href="galerie.html" >Galerie</a>
+		<a href="wiki.html" >Wiki</a>
+		<a href="kontakt.html" style="float:right">Kontakt</a>
+		<a href="info.html" style="float:right">Info</a>
+  </nav>
+  <section>
+    <h3>STARTSEITE</h3>
+  <article>
+  Herzlich Willkommen auf Swim.blog, der Seite zum Thema Schwimmsport!<br>
+  <p>Hier findest du alles - von Neuigkeiten im Schwimmsport bis Fotos von den letzten Wettkämpfen.<br>
+  </article>
+  
+  <div class="box">
+
+	<div class="slideshow">
+	<div class="numberslide">1 / 3</div>
+	<img src="images/slideshowhandy.png" style="width:70%">
+	</div>
+
+	<div class="slideshow">
+	<div class="numberslide">2 / 3</div>
+	<img src="images/slideshowtab.png" style="width:70%">
+	</div>
+
+	<div class="slideshow">
+	<div class="numberslide">3 / 3</div>
+	<img src="images/slideshowlaptop.png" style="width:70%">
+	</div>
+
+	</div>
+	
+	
+  <div class="box">
+	<video autoplay loop muted>
+	<source src="images/test.mp4" type="video/mp4" style="width:70%">
+  </video>
+  </div>
+  <article>
+  <p>Bitte vergiss nicht: Diese Seite befindet sich im Aufbau, daher ist sie noch nicht perfekt - sie befindet sich aber auf den besten Weg dorthin.<br>
+  Bei Fragen oder Verbesserungsvorschlägen können uns diese gerne geteilt werden - und zwar <a href="kontakt.html">hier</a>. (Formlar funktionert noch nicht)<br>
+  <p>(Early Access)
+  </article>
+  </section>
+  <footer>
+     <p>Swim.blog ist ein kostenfreier Newsletter/Blog welcher über den Schwimmsport informiert.<br>
+	Bei Fragen oder Verbesserungen schreiben Sie uns bitte 
+	<a href="kontakt.html">hier</a>.
+	<p>©Marc Beier 2021
+  </footer>
+  <script src="./js/main.js"></script>
+</body>
+</html>
